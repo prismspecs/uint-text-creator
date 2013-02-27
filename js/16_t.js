@@ -1,3 +1,8 @@
+/* Made by Grayson Earle
+	www.graysonearle.com
+   Use it however you'd like, but don't claim that you made it unless you've got a really great excuse...
+*/
+
 // just two colors for now, unless we wanna do some half brightness stuff
 var colors = ["black","white"];
 var color_count = 2;
