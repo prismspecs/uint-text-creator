@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+<head>
+
+	<title>Pattern Maker</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/16_t_style.css">
+	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/16_t.js" type="text/javascript"></script>
+	
+	
+</head>
+<body>
+
+<div id = "submit">
+<a href="javascript:make_code()">show code</a>
+<form name="form_a">
+Char name: <input type="text" id="charname_box" maxlength="4">
+Columns: <input type="text" id="column_box" onkeypress="return isNumber(event)" maxlength="2">
+Rows: <input type="text" id="row_box" onkeypress="return isNumber(event)" maxlength="2">
+<input type="button" value="Go" onclick="javascript:form_submit()">
+</form> 
+</div>
+
+<div id = "code">
+
+</div>
+
+<div id = "container">
+<script>
+
+	adjust_array();
+	
+	for (var i=0; i < 96; i++ ) {
+        document.write('<div class="colorBox" id="box'+i+'">');
+        document.write('</div>');
+	}
+
+</script>
+</div>
+</body>

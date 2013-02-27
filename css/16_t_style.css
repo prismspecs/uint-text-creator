@@ -1,0 +1,46 @@
+body {
+	background-color:#000;
+	color:#fff;
+	font-family: "Lucida Grande";
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+	color:#369;
+}
+#container {
+	width:240px;
+	height:640px;
+	margin: 0 auto;
+	margin-top:40px;
+}
+.colorBox {
+	background-color:#000;
+	float:left;
+	width:36px;
+	height:36px;
+	border:2px solid #aaa;
+	//margin:-2px;
+}
+#submit {
+	position: fixed;
+	top: 10px;
+	left:10px;
+}
+#column_box,#row_box {
+	width:40px;
+}
+#charname_box {
+	width:60px;
+	margin-right:10px;
+}
+#code {
+	position: absolute;
+	float:left;
+	left:10px;
+	top:10px;
+	top: 50px;
+	width:200px;
+	height:300px;
+	background-color: #888;
+}
